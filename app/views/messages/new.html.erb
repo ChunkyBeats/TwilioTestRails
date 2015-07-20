@@ -1,8 +1,8 @@
 <h1>New Message</h1>
 
 <%= bootstrap_form_for @message do |f| %>
-  <%= f.text_field :to %>
-  <%= f.text_field :from %>
+  <%= f.telephone_field :to %>
+  <%= f.hidden_field :from, value: '+16692380085' %>
   <%= f.text_field :body %>
   <%= f.submit %>
 <% end %>

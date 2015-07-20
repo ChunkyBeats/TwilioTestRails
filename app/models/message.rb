@@ -1,14 +1,8 @@
-require 'rest-client'
+# require 'rest-client'
 
 class Message < ActiveRecord::Base
   before_create :send_message
 
-  # def initialize(attributes)
-  #   @to = attributes['to']
-  #   @from = attributes['from']
-  #   @body = attributes['body']
-  #   @status = attributes['status']
-  # end
 
   private
   def send_message
