@@ -15,6 +15,7 @@ gem 'bootstrap_form'
 gem 'devise'
 gem 'dotenv-rails'
 gem 'rest-client'
+gem 'authy'
 
 
 group :development do

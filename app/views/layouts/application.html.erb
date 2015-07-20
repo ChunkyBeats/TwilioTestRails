@@ -12,9 +12,8 @@
     </header>
   <div class="container">
 
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
-
+    <%= flash[:notice] %>
+    <%= flash[:alert] %>
 
     <%= yield %>
 
